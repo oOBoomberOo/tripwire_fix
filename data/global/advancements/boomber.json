@@ -1,18 +1,18 @@
 {
 	"display": {
-		"title": "Tripwire Fix v1.0",
-		"description": "Fix your game Mojang",
+		"title": "Boomber",
+		"description": "",
 		"icon": {
-			"item": "minecraft:tripwire_hook"
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: 'Boomber'}"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "global:root",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
 		}
-	
 	}
 }

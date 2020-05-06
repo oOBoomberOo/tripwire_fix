@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ tripwire_hook[attached=true] run function boomber:tripwire_fix/player/hooked
+execute anchored eyes positioned ^ ^ ^0.1 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ tripwire_hook[attached=true] run function boomber:tripwire_fix/player/hooked
