@@ -1,0 +1,2 @@
+[datapack]
+includes = ["data/*", "LICENSE", "pack.mcmeta"]
